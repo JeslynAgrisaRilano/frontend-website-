@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WaLe Dashboard</title>
+  <link rel="stylesheet" href="karyawan.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .table th, .table td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .table th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+    .table tr:hover {
+      background-color: #f5f5f5;
+    }
+    .table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    .button {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Karyawan</h1>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Almt</th>
+          <th>Email</th>
+          <th>Pembayaran Notip</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Amelia</td>
+          <td>JL Bareng k</td>
+          <td>Amell@gmail.com</td>
+          <td>+6287392843</td>
+        </tr>
+        <tr>
+          <td>Aki</td>
+          <td>Pa</td>
+          <td>Lo</td>
+          <td>Lo</td>
+        </tr>
+      </tbody>
+    </table>
+    <button class="button" onclick="location.href='tambah.html'">Delete</button>
+  </div>
+</body>
+</html>

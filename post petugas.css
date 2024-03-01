@@ -11,14 +11,25 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+header {
+    text-align: left;
+    background-color: white;
+    color: rgb(14, 13, 13);
+    padding: 1px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    border-bottom: 2px solid black;
 
-.container{
+}
+
+.container {
+    width: 500px;
     position: absolute;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    top: 60%;
+    transform: translate(-50%, -50%);
     padding: 20px 25px;
-    width: 500px;
 
     background-color: rgba(255, 251, 251, 0.7);
     box-shadow: 0 0 10px   rgba(255, 253, 253, 0.937);
@@ -34,7 +45,7 @@ body{
 }
 .container > form > input{
     width: calc(100% - 20px);
-    padding: 10px 10px;
+    padding: 3px 3px;
     margin-bottom: 15px;
     background-color: transparent;
     color: #fff;
@@ -63,14 +74,14 @@ body{
     margin-bottom: 10px; 
     border-radius: 10px;
 }
-
-.btn-register{
-    width: 100%;
-    padding: 5px 0;
-    border: none;
-    background-color: grey;
-    font-size: 18px;
+.btn-back {
+    background-color: black;
     color: #fafafa;
-    margin-bottom: 10px;
-    border-radius: 10px; 
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 100px;
+    right: 20px;
 }

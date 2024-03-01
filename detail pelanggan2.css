@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    /* margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 80vh; */
+}
+
+header {
+    text-align: left;
+    background-color: white;
+    color: rgb(14, 13, 13);
+    padding: 1px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 5px; 
+    border-bottom: 2px solid black;
+}
+#header-arrow-icon {
+    position: absolute;
+    right: 10px; /* Sesuaikan jarak dari sisi kanan sesuai kebutuhan */
+}
+
+.side-navigation {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: calc(100vh - 40px); 
+    /* padding-top: 0px; */
+    position: fixed;
+    left: 0;
+    top: 60px;
+    z-index: 1;
+}
+
+.side-navigation ul {
+    list-style: none;
+    padding: 20px; 
+}
+
+.side-navigation li {
+    padding: 20px;
+}
+
+.side-navigation a {
+    text-decoration: none;
+    color: #fff; 
+    display: block;
+}
+.side-navigation .icon-text {
+    margin-left: 8px; /* Atur jarak antara ikon dan teks di sisi kanan ikon */
+}
+header {
+    /* text-align: left; */
+    font-size: 30px;
+    /* font-weight: bold; */
+    background-color: rgba(255, 255, 255, 0.985);
+    /* color: #080808;
+    padding: 1px;
+    height: 50px;
+    margin-bottom: 50px;
+    margin-top: 5px; */
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+h1{
+    text-align: center ;
+    /* padding-left: 780px; */
+    padding-bottom: 25px;
+    /* margin-left: 190px; */
+    /* margin-top: 0px; */
+}
+.button-container {
+    position: relative;
+    /* top: 60px; Sesuaikan posisi vertikal sesuai kebutuhan */
+    left: 180px; /* Sesuaikan posisi horizontal sesuai kebutuhan */
+}
+.side-button {
+    background-color: #000; /* Warna latar belakang */
+    color: white; /* Warna teks */
+    padding: 10px 30px; /* Padding */
+    border: none; /* Tanpa border */
+    cursor: pointer; /* Pointer ketika dihover */
+    border-radius: 10px;
+    margin-left: 90px;
+}
+table {
+    border-collapse: collapse;
+    width: 250%;
+}
+.nengah {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+
+th, td {
+    border: 1px solid rgb(255, 251, 251);
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    text-align: center ;
+    background-color: #080808;
+    color: white;
+    padding: 1px;
+    height: 50px;
+    margin-bottom: 40px;
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    text-align: center;
+    background-color: #080808; 
+    color: white;
+    padding: 1px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+
+td {
+    background-color: #f2f2f2; 
+}
+
+tr:nth-child(even) {
+    background-color: #0a0909; 
+}
+
+
+
+/* body *:not(table, th, td) {
+    border: none;
+} */
